@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/alto/static/css/main.ec74bb1e.css",
+    "main.js": "/alto/static/js/main.275e969c.js",
+    "static/js/787.2c5e5bc2.chunk.js": "/alto/static/js/787.2c5e5bc2.chunk.js",
+    "static/media/PxGrotesk-LightIta.otf": "/alto/static/media/PxGrotesk-LightIta.6e83166de3edafc843fb.otf",
+    "static/media/PxGrotesk-RegularIta.otf": "/alto/static/media/PxGrotesk-RegularIta.311ac7c1239b0ddd89c7.otf",
+    "static/media/PxGrotesk-BoldIta.otf": "/alto/static/media/PxGrotesk-BoldIta.2c098788160c4298f5a6.otf",
+    "static/media/PxGrotesk-Light.otf": "/alto/static/media/PxGrotesk-Light.3491cef5f8cff4e6a19c.otf",
+    "static/media/PxGrotesk-Bold.otf": "/alto/static/media/PxGrotesk-Bold.b6e4aa7734e040ee2fdd.otf",
+    "static/media/PxGrotesk-Regular.otf": "/alto/static/media/PxGrotesk-Regular.81d481ba84e692242c9c.otf",
+    "static/media/Map_overview.png": "/alto/static/media/Map_overview.88a0168b670e775df5ff.png",
+    "static/media/PxGrotesk-Screen.otf": "/alto/static/media/PxGrotesk-Screen.590b9defab9c3f61fef7.otf",
+    "static/media/Linotype - OptimaLTStd-ExtraBlack.otf": "/alto/static/media/Linotype - OptimaLTStd-ExtraBlack.9484acec871e2bf22e33.otf",
+    "static/media/Linotype - OptimaLTStd-XBlackItalic.otf": "/alto/static/media/Linotype - OptimaLTStd-XBlackItalic.cdac2944d0f73313cf2b.otf",
+    "static/media/Linotype - OptimaLTStd-MediumItalic.otf": "/alto/static/media/Linotype - OptimaLTStd-MediumItalic.f2d712763734938bfb94.otf",
+    "static/media/Linotype - OptimaLTStd-Black.otf": "/alto/static/media/Linotype - OptimaLTStd-Black.9deae99699eb0fa3a4d2.otf",
+    "static/media/Linotype - OptimaLTStd-DemiBold.otf": "/alto/static/media/Linotype - OptimaLTStd-DemiBold.a399a2cf6e62b978aa4e.otf",
+    "static/media/Linotype - OptimaLTStd-Medium.otf": "/alto/static/media/Linotype - OptimaLTStd-Medium.b9b7fe3cbfda7dc78974.otf",
+    "static/media/Linotype - OptimaLTStd-BoldItalic.otf": "/alto/static/media/Linotype - OptimaLTStd-BoldItalic.1181fbbf7bbb4ff48877.otf",
+    "static/media/Linotype - OptimaLTStd-BlackItalic.otf": "/alto/static/media/Linotype - OptimaLTStd-BlackItalic.6df6cdb34249e4f3fc63.otf",
+    "static/media/Linotype - OptimaLTStd-Italic.otf": "/alto/static/media/Linotype - OptimaLTStd-Italic.392c3d8d13dce197e604.otf",
+    "static/media/Linotype - OptimaLTStd-Bold.otf": "/alto/static/media/Linotype - OptimaLTStd-Bold.c95f6b4d7d2401e96505.otf",
+    "static/media/Linotype - OptimaLTStd.otf": "/alto/static/media/Linotype - OptimaLTStd.665f1bbaad5f9986db92.otf",
+    "index.html": "/alto/index.html",
+    "main.ec74bb1e.css.map": "/alto/static/css/main.ec74bb1e.css.map",
+    "main.275e969c.js.map": "/alto/static/js/main.275e969c.js.map",
+    "787.2c5e5bc2.chunk.js.map": "/alto/static/js/787.2c5e5bc2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec74bb1e.css",
+    "static/js/main.275e969c.js"
+  ]
+}
