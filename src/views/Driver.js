@@ -11,7 +11,9 @@ export default function Driver() {
   return (
     <Container padding="0" minHeight="100vh">
       <DriverPhotoWrapper>
-        <img src={mission.driver.image} alt="Driver Portrait."/>
+        <img src={returnImgPath(mission.driver.image)} alt="Driver Portrait."/>
+        {/* <img src={require('../images/Driver_photo.png')} alt="Driver Portrait."/> */}
+
       </DriverPhotoWrapper>
       <Container>
         <Row>
@@ -36,6 +38,17 @@ export default function Driver() {
         />
     </Container>
   );
+
+  function returnImgPath(img){
+    if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+      // development build code
+      return process.env.PUBLIC_URL + img;
+    } else {
+        return require('../images/Driver_photo.png');
+    }
+  }
+
+
 }
 
 const DriverPhotoWrapper = styled.div`

@@ -11,7 +11,9 @@ export default function Vehicle() {
   return (
     <Container padding="0" minHeight="100vh">
       <VehicleImageWrapper>
-        <img src={mission.vehicle.image} alt="Image of Vehicle."/>
+        <img src={returnImgPath(mission.vehicle.image)} alt={mission.vehicle.color + " " + mission.vehicle.make + "."}/>
+        {/* <img src={require('../images/Vehicle_photo.png')} alt={mission.vehicle.color + " " + mission.vehicle.make + "."}/> */}
+
       </VehicleImageWrapper>
       <Container>
         <Row>
@@ -40,6 +42,17 @@ export default function Vehicle() {
         />
     </Container>
   );
+
+
+  function returnImgPath(img){
+    if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+      // development build code
+      return process.env.PUBLIC_URL + img;
+    } else {
+        return require('../images/Vehicle_photo.png');
+    }
+  }
+  
 }
 
 const VehicleImageWrapper = styled.div`

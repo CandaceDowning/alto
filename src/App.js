@@ -3,7 +3,7 @@ import { ThemeProvider } from "styled-components";
 import theme from "./styles/theme";
 import styled from "styled-components";
 // import { H1, H2 } from './styles/typography'
-import { BrowserRouter as Router , Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router , Route, Routes, Navigate } from 'react-router-dom';
 
 import StyleGuide from "./views/StyleGuide";
 import TripSummary from "./views/TripSummary";
@@ -24,11 +24,12 @@ function App() {
         <AppWrapper className="App">
           <Nav/>
           <Routes>
-            <Route path="/" element={<StyleGuide/>}/>
+            <Route path="/alto" element={<StyleGuide/>}/>
             <Route path="/driver" element={<Driver/>}/>
             <Route path="/trip-summary" element={<TripSummary/>}/>
             <Route path="/vehicle" element={<Vehicle/>}/>
             <Route path="/trip-progress" element={<TripProgress/>}/>
+            <Route path="/" element={ <Navigate to="/alto" /> } />
           </Routes>
           <Footer/>
         </AppWrapper>

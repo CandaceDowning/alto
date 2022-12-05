@@ -46,6 +46,7 @@ export default function TripSummary() {
       <Row>
         <Notes>
           {mission.trip.notes} 
+          <EditIcon src={require('../images/Edit_icon.png')} alt="Edit."/>
         </Notes>
       </Row>
       <Button
@@ -123,4 +124,11 @@ const Notes = styled.p`
   @media screen and (max-width: 400px){
     margin-bottom: 75px;   
   }
+`;
+
+
+const EditIcon = styled.img`
+    width: 10px;
+    height: 10px;
+    margin-left: 15px
 `;

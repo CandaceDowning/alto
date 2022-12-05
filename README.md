@@ -10,6 +10,8 @@ A front end code exercise to be submitted for interview process.
 
 - Used React Styled components and set up a small theme.
 
+- Created a favicon using the alto logo by giving it a background color and converting to an .ico file
+
 ### Issues
 - Updated the mission.json file to pull images from the public folder for easier access.
 
@@ -19,14 +21,15 @@ A front end code exercise to be submitted for interview process.
 
 - More colors and fonts given than needed, so used best judgement.
 
-- This project took longer than I thought it would at 10 hours. I may have made it more complicated than it needed to be.
+- This project took longer than I thought it would. I may have made it more complicated than it needed to be.
+
+- Had a very difficult time getting image paths pulled from the json file to work with both the local dev environment, and the deployed GHPages site. Created a helper function to append the deployed url to the path if not in a dev environement, and use the local image path if in a dev environment
 
 ## Style Guide
 Created to assist in development, and used the disabled appearance navigation item as the link. It is still styled as a disabled element, but will link. 
 
 ## To View Project On Github Pages
 - Go to [https://candacedowning.github.io/alto](https://candacedowning.github.io/alto)
-- The first view will be a non existent page due to github pages url structure.
 - click one of the navigation links to view a page within the project (use the bubbles on the top right on mobile, and the links on desktop)
 
 ## To Run Project
