@@ -29,7 +29,46 @@ export default function StyleGuide() {
   return (
     <StyleGuideWrapper>
         <Container>
-            <H1>StyleGuide</H1>
+            <H1>Styles</H1>
+            <ColorsWrapper>
+                <Color bgColor="background" color="black">
+                    background
+                </Color>
+                <Color bgColor="black" color="white">
+                    black
+                </Color>
+                <Color bgColor="gray3" color="white">
+                    gray3
+                </Color>
+                <Color bgColor="gray2" color="white">
+                    gray2
+                </Color>
+                <Color bgColor="gray1" color="black">
+                    gray1
+                </Color>
+                <Color bgColor="white" color="black">
+                    white
+                </Color>
+                <Color bgColor="warmGray4" color="white">
+                    warmGray4
+                </Color>
+                <Color bgColor="warmGray3" color="white">
+                    warmGray3
+                </Color>
+                <Color bgColor="warmGray2" color="black">
+                    warmGray2
+                </Color>
+                <Color bgColor="warmGray1" color="black">
+                    warmGray1
+                </Color>
+                <Color bgColor="sienna" color="black">
+                    sienna
+                </Color>
+                <Color bgColor="transparent" color="black">
+                    transparent
+                </Color>
+            </ColorsWrapper>
+
             <POptBlack>OptBlack</POptBlack>
             <POptBlack>ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890</POptBlack>
 
@@ -90,4 +129,24 @@ export default function StyleGuide() {
 
 const StyleGuideWrapper = styled.div`
     padding: 100px 0 50px;
+`;
+
+const ColorsWrapper = styled.div`
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+`;
+
+const Color = styled.div`
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 2px solid ${props => props.theme.colors.black};
+    background-color: ${props => props.theme.colors[props.bgColor]};
+    color: ${props => props.theme.colors[props.color]};
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `;

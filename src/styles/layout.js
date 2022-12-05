@@ -1,8 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    padding: 0 30px;
+    padding: ${props => props.padding ? props.padding : '0 30px'};
     position: relative;
+    max-width: 800px;
+    
+    min-height: ${props => props.minHeight ? props.minHeight : ''};
+    @media screen and (min-width: 767.8px){
+        min-width: 600px;
+        margin: 0 auto;
+    }
 `;
 
 export const Row = styled.div`
@@ -15,7 +22,6 @@ export const Row = styled.div`
     margin: ${props => props.margin ? props.margin : '0'};
 `;
 
-// width
 export const Column = styled.div`
     width: ${props => props.width ? props.width : 'auto'};
     display: flex;

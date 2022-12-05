@@ -1,5 +1,3 @@
-
-
 const colors = {
     background:  "rgb(247,243,239)",
     black: "rgb(0,0,0)",
@@ -14,7 +12,6 @@ const colors = {
     sienna: "rgb(172,130,109)",
     transparent: "rgba(157,157,157, 0.0)",
   };
-  
   
   const fonts = {
     optBlack: `'optBlack', sans-serif`,

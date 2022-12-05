@@ -15,35 +15,38 @@ export default function Nav() {
                 </Column>
                 <MobileLinkWrapper>
                     <LinkBubble to="/trip-summary">
-                        
                     </LinkBubble>
                     <LinkBubble to="/driver">
-                        
                     </LinkBubble>
                     <LinkBubble to="/vehicle">
-                        
                     </LinkBubble>
                     <LinkBubble to="/trip-progress">
-                        
                     </LinkBubble>
                     <LinkBubble disabled="true" to="/">
-                        
                     </LinkBubble>     
                 </MobileLinkWrapper>
-
+                <DesktopLinkWrapper>
+                    <LinkText to="/trip-summary">
+                        Trip Summary
+                    </LinkText>
+                    <LinkText to="/driver">
+                        Driver
+                    </LinkText>
+                    <LinkText to="/vehicle">
+                        Vehicle
+                    </LinkText>
+                    <LinkText to="/trip-progress">
+                        Trip Progress
+                    </LinkText>
+                    <LinkText disabled="true" to="/">
+                        Style Guide
+                    </LinkText> 
+                </DesktopLinkWrapper>
             </Row>
-
-
         </Container>
-
-
-
-
     </NavWrapper>
   );
 }
-
-
 
 const NavWrapper = styled.div`
     background-color: ${props => props.theme.colors.transparent};
@@ -53,23 +56,36 @@ const NavWrapper = styled.div`
     width: 100%;
     padding: 30px 0;
     z-index: 999;
+    @media screen and (min-width: 992px){
+        & ${Container} {
+            max-width: 700px; 
+        }
+        & ${Column} {
+            align-items: flex-start;
+            width: 20%;
+        }
+    }
 `;
 
 const Title = styled.p`
     font-family: ${props => props.theme.fonts.optRegular};
     text-align: center;
     letter-spacing: .2em;
-    
-
-    font-size: 22px;
-
+    font-size: 30px;
+    @media screen and (max-width: 768px){
+        font-size: 22px;
+      }
 `;
 
-
-// const LinkWrapper = styled.div`
-//     display: flex;
-//     flex-direction: column;
-// `;
+const DesktopLinkWrapper = styled.div`
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+   
+    @media screen and (max-width: 991.98px){
+        display: none
+    }
+`;
 
 const MobileLinkWrapper = styled.div`
     display: flex;
@@ -77,6 +93,9 @@ const MobileLinkWrapper = styled.div`
     position: absolute;
     top: 35%;
     right: 0;
+    @media screen and (min-width: 992.98px){
+        display: none
+    }
 `;
 
 const LinkItem = ({ className, children, to, onClick, key }) => (
@@ -97,5 +116,16 @@ const LinkBubble = styled(LinkItem)`
     &.active {
         background-color: ${props => props.theme.colors.gray3};
         border-color: ${props => props.theme.colors.gray3};
+    }
+`;
+
+const LinkText = styled(LinkItem)`
+    font-family: ${props => props.theme.fonts.optMedium};
+    color: ${props => props.theme.colors.gray3};
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    &.active {
+        color: ${props => props.theme.colors.sienna};
     }
 `;

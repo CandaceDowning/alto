@@ -2,18 +2,17 @@
 import React from "react";
 import styled from "styled-components";
 import { H1, PageTag } from '../styles/typography'
-import { Container, Row, Column, Break } from '../styles/layout';
+import { Container, Row, Column } from '../styles/layout';
 import mission from '../data/mission.json'
 import Button from '../components/Button';
 
 
 export default function Vehicle() {
   return (
-    <div>
+    <Container padding="0" minHeight="100vh">
       <VehicleImageWrapper>
         <img src={mission.vehicle.image} alt="Driver Portrait."/>
       </VehicleImageWrapper>
-
       <Container>
         <Row>
           <PageTag>
@@ -25,9 +24,7 @@ export default function Vehicle() {
             {mission.vehicle.license}
           </H1>
         </Row>
-
-
-        <Row margin="30px 0 85px">
+        <Row margin="30px 0 85px" align="flex-start">
           <Column width="50%" borderTop="true" align="flex-start">
             <DetailTitle>Make / Model</DetailTitle>
             <Detail>{mission.vehicle.make}</Detail>
@@ -36,15 +33,12 @@ export default function Vehicle() {
             <DetailTitle>Color</DetailTitle>
             <Detail>{mission.vehicle.color}</Detail>
           </Column>
-
         </Row>   
-
-        <Button/>
-
       </Container>
-
-
-    </div>
+        <Button
+          copy="Identify Vehicle"
+        />
+    </Container>
   );
 }
 
@@ -54,7 +48,6 @@ const VehicleImageWrapper = styled.div`
   overflow: hidden;
   height: 400px;
   width: 100%;
-
   img {
     height: 150px;
     width: auto;
@@ -67,24 +60,26 @@ const VehicleImageWrapper = styled.div`
   }
 `;
 
-
 const DetailTitle = styled.p`
   font-family: ${props => props.theme.fonts.groteskLight};
   color: ${props => props.theme.colors.warmGray4};
   margin: 10px 0 0;
   line-height: 1em;
-
-
-  font-size: 12px;
+  font-size: 16px;
+  @media screen and (max-width: 768px){
+    font-size: 12px;
+  }
 `;
-
 
 const Detail = styled.p`
   font-family: ${props => props.theme.fonts.groteskRegular};
   color: ${props => props.theme.colors.warmGray4};
   margin: 10px 0;
   line-height: 1em;
-
-
-  font-size: 12px;
+  @media screen and (min-width: 500px){
+    margin-bottom: 100px;   
+  }
+  @media screen and (max-width: 400px){
+    margin-bottom: 0px;   
+  }
 `;

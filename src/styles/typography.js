@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 export const H1 = styled.h1`
-    font-size: 72px;
+    font-size: 80px;
     font-family: ${props => props.theme.fonts.groteskLight};
     margin: 0;
     line-height: 1em;
+    @media screen and (max-width: 768px){
+        font-size: 72px;
+    }
 `;
 
 export const H2 = styled.h2`
@@ -12,32 +15,20 @@ export const H2 = styled.h2`
     font-family: ${props => props.theme.fonts.optRegular};
     margin: 0;
     line-height: 1em;
-
-
-    font-size: 40px;
-
-
+    font-size: 60px;
+    @media screen and (max-width: 768px){
+        font-size: 40px;
+    }
 `;
-
 
 export const PageTag = styled.p`
     font-family: ${props => props.theme.fonts.groteskRegular};
     font-size: 12px;
     color: ${props => props.theme.colors.sienna};
-    letter-spacing: .1em;
-    margin-top: 30px
+    letter-spacing: .2em;
+    margin-top: 30px;
+    text-transform: uppercase;
 `;
-
-
-
-
-
-
-
-
-
-
-
 
 
 
