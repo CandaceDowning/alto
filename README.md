@@ -23,6 +23,11 @@ A front end code exercise to be submitted for interview process.
 ## Style Guide
 Created to assist in development, and used the disabled appearance navigation item as the link. It is still styled as a disabled element, but will link. 
 
+## To View Project On Github Pages
+- Go to [https://candacedowning.github.io/alto](https://candacedowning.github.io/alto)
+- The first view will be a non existent page due to github pages url structure.
+- click one of the navigation links to view a page within the project (use the bubbles on the top right on mobile, and the links on desktop)
+
 ## To Run Project
 - Clone from repo.
 - Navigate to the root file 'alto'.
