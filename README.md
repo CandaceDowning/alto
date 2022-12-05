@@ -12,7 +12,7 @@ A front end code exercise to be submitted for interview process.
 
 - Created a favicon using the alto logo by giving it a background color and converting to an .ico file
 
-### Issues
+### Challenges
 - Updated the mission.json file to pull images from the public folder for easier access.
 
 - Chose not to use the logo asset for the navigation header because it was too grainy. However, I couldnt find a matching font, so I ended up going with the Optimal Medium since the 'A' matched the best, but there was no option that had an offset thiness to the 'O'.
@@ -23,7 +23,7 @@ A front end code exercise to be submitted for interview process.
 
 - This project took longer than I thought it would. I may have made it more complicated than it needed to be.
 
-- Had a very difficult time getting image paths pulled from the json file to work with both the local dev environment, and the deployed GHPages site. Created a helper function to append the deployed url to the path if not in a dev environement, and use the local image path if in a dev environment
+- Had a very difficult time getting image paths pulled from the json file to work with both the local dev environment, and the deployed GHPages site. Created a helper function to append the deployed url to the path if not in a dev environement to pull the image from the public folder, and use the local image path if in a dev environment.
 
 ## Style Guide
 Created to assist in development, and used the disabled appearance navigation item as the link. It is still styled as a disabled element, but will link. 
