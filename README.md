@@ -6,7 +6,6 @@ A front end code exercise to be submitted for interview process.
 ## General Notes
 
 ### Successes
-
 - Set up react routing to make it easier to navigate views. I saw the icon for the navigation, so I maybe did more than neccessary.
 
 - Used React Styled components and set up a small theme.
@@ -19,6 +18,8 @@ A front end code exercise to be submitted for interview process.
 - Had some difficulty guessing layouts since the designs were not inspectable.
 
 - More colors and fonts given than needed, so used best judgement.
+
+- This project took longer than I thought it would at 10 hours. I may have made it more complicated than it needed to be.
 
 ## Style Guide
 Created to assist in development, and used the disabled appearance navigation item as the link. It is still styled as a disabled element, but will link. 

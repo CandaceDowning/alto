@@ -11,7 +11,7 @@ export default function Vehicle() {
   return (
     <Container padding="0" minHeight="100vh">
       <VehicleImageWrapper>
-        <img src={mission.vehicle.image} alt="Driver Portrait."/>
+        <img src={mission.vehicle.image} alt="Image of Vehicle."/>
       </VehicleImageWrapper>
       <Container>
         <Row>
