@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alto/static/css/main.ec74bb1e.css",
-    "main.js": "/alto/static/js/main.275e969c.js",
+    "main.js": "/alto/static/js/main.2e35b3d7.js",
     "static/js/787.2c5e5bc2.chunk.js": "/alto/static/js/787.2c5e5bc2.chunk.js",
     "static/media/PxGrotesk-LightIta.otf": "/alto/static/media/PxGrotesk-LightIta.6e83166de3edafc843fb.otf",
     "static/media/PxGrotesk-RegularIta.otf": "/alto/static/media/PxGrotesk-RegularIta.311ac7c1239b0ddd89c7.otf",
@@ -24,11 +24,11 @@
     "static/media/Linotype - OptimaLTStd.otf": "/alto/static/media/Linotype - OptimaLTStd.665f1bbaad5f9986db92.otf",
     "index.html": "/alto/index.html",
     "main.ec74bb1e.css.map": "/alto/static/css/main.ec74bb1e.css.map",
-    "main.275e969c.js.map": "/alto/static/js/main.275e969c.js.map",
+    "main.2e35b3d7.js.map": "/alto/static/js/main.2e35b3d7.js.map",
     "787.2c5e5bc2.chunk.js.map": "/alto/static/js/787.2c5e5bc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec74bb1e.css",
-    "static/js/main.275e969c.js"
+    "static/js/main.2e35b3d7.js"
   ]
 }
