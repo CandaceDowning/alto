@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+
+/* declare custom internal fonts */
+
+@font-face {
+  font-family: 'optBlack';
+  src: local('optBlackItalic'), url('./styles/fonts/Linotype - OptimaLTStd-Black.otf') format('opentype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'optBlackItalic';
+  src: local('optBlackItalic'), url('./styles/fonts/Linotype - OptimaLTStd-BlackItalic.otf') format('opentype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'optBold';
+  src: local('optBold'), url('./styles/fonts/Linotype - OptimaLTStd-Bold.otf') format('opentype');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'optBoldItalic';
+  src: local('optBoldItalic'), url('./styles/fonts/Linotype - OptimaLTStd-BoldItalic.otf') format('opentype');
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'optDemiBold';
+  src: local('optDemiBold'), url('./styles/fonts/Linotype - OptimaLTStd-DemiBold.otf') format('opentype');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'optDemiBoldItalic';
+  src: local('optDemiBold'), url('./styles/fonts/Linotype - OptimaLTStd-DemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'optExtraBlack';
+  src: local('optExtraBlack'), url('./styles/fonts/Linotype - OptimaLTStd-ExtraBlack.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'optItalic';
+  src: local('optItalic'), url('./styles/fonts/Linotype - OptimaLTStd-Italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'optMedium';
+  src: local('optMedium'), url('./styles/fonts/Linotype - OptimaLTStd-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'optMediumItalic';
+  src: local('optMediumItalic'), url('./styles/fonts/Linotype - OptimaLTStd-MediumItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'optXBlackItalic';
+  src: local('optXBlackItalic'), url('./styles/fonts/Linotype - OptimaLTStd-XBlackItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'optRegular';
+  src: local('optRegular'), url('./styles/fonts/Linotype - OptimaLTStd.otf') format('opentype');
+}
+
+
+
+@font-face {
+  font-family: 'groteskBold';
+  src: local('groteskBold'), url('./styles/fonts/PxGrotesk-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'groteskBoldItalic';
+  src: local('groteskBoldItalic'), url('./styles/fonts/PxGrotesk-BoldIta.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'groteskLight';
+  src: local('groteskLight'), url('./styles/fonts/PxGrotesk-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'groteskLightItalic';
+  src: local('groteskLightItalic'), url('./styles/fonts/PxGrotesk-LightIta.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'groteskRegular';
+  src: local('groteskRegular'), url('./styles/fonts/PxGrotesk-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'groteskRegularItalic';
+  src: local('groteskRegularItalic'), url('./styles/fonts/PxGrotesk-RegularIta.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'groteskScreen';
+  src: local('groteskScreen'), url('./styles/fonts/PxGrotesk-Screen.otf') format('opentype');
 }
