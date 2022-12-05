@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/alto/static/css/main.ec74bb1e.css",
-    "main.js": "/alto/static/js/main.2e35b3d7.js",
+    "main.js": "/alto/static/js/main.1401ff36.js",
     "static/js/787.2c5e5bc2.chunk.js": "/alto/static/js/787.2c5e5bc2.chunk.js",
+    "static/media/Driver_photo.png": "/alto/static/media/Driver_photo.e0f4fd385e9c9378805c.png",
     "static/media/PxGrotesk-LightIta.otf": "/alto/static/media/PxGrotesk-LightIta.6e83166de3edafc843fb.otf",
     "static/media/PxGrotesk-RegularIta.otf": "/alto/static/media/PxGrotesk-RegularIta.311ac7c1239b0ddd89c7.otf",
     "static/media/PxGrotesk-BoldIta.otf": "/alto/static/media/PxGrotesk-BoldIta.2c098788160c4298f5a6.otf",
     "static/media/PxGrotesk-Light.otf": "/alto/static/media/PxGrotesk-Light.3491cef5f8cff4e6a19c.otf",
     "static/media/PxGrotesk-Bold.otf": "/alto/static/media/PxGrotesk-Bold.b6e4aa7734e040ee2fdd.otf",
     "static/media/PxGrotesk-Regular.otf": "/alto/static/media/PxGrotesk-Regular.81d481ba84e692242c9c.otf",
+    "static/media/Vehicle_photo.png": "/alto/static/media/Vehicle_photo.c1252ef9b5bf473f9c9e.png",
     "static/media/Map_overview.png": "/alto/static/media/Map_overview.88a0168b670e775df5ff.png",
     "static/media/PxGrotesk-Screen.otf": "/alto/static/media/PxGrotesk-Screen.590b9defab9c3f61fef7.otf",
     "static/media/Linotype - OptimaLTStd-ExtraBlack.otf": "/alto/static/media/Linotype - OptimaLTStd-ExtraBlack.9484acec871e2bf22e33.otf",
@@ -24,11 +26,11 @@
     "static/media/Linotype - OptimaLTStd.otf": "/alto/static/media/Linotype - OptimaLTStd.665f1bbaad5f9986db92.otf",
     "index.html": "/alto/index.html",
     "main.ec74bb1e.css.map": "/alto/static/css/main.ec74bb1e.css.map",
-    "main.2e35b3d7.js.map": "/alto/static/js/main.2e35b3d7.js.map",
+    "main.1401ff36.js.map": "/alto/static/js/main.1401ff36.js.map",
     "787.2c5e5bc2.chunk.js.map": "/alto/static/js/787.2c5e5bc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec74bb1e.css",
-    "static/js/main.2e35b3d7.js"
+    "static/js/main.1401ff36.js"
   ]
 }
