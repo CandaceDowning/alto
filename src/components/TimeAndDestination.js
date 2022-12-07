@@ -3,13 +3,14 @@ import React from "react";
 import styled from "styled-components";
 import { Row } from '../styles/layout'
 import mission from '../data/mission.json'
+import moment from 'moment'
 
 export default function TimeAndDestination() {
 
   return (
     <div>
         <Row align='flex-end'>
-            <Time>5:39</Time><AmPm>PM</AmPm>
+            <Time>{moment(mission.trip.estimated_arrival).format('h:mm')}</Time><AmPm>{moment(mission.trip.estimated_arrival).format('A')}</AmPm>
         </Row>
         <Row>
           <Details>{mission.trip.dropoff_location.name}</Details>

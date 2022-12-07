@@ -3,6 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import { Container, Row, Column } from '../styles/layout'
 import mission from '../data/mission.json'
+import moment from 'moment'
 
 export default function Footer() {
 
@@ -18,9 +19,7 @@ export default function Footer() {
                         {mission.trip.dropoff_location.name.substring(0, mission.trip.dropoff_location.name.indexOf('-')) }
                     </Destination>
                     <Eta>
-                        ETA: 5:39 PM
-                        {/* todo: update to central time */}
-                        {/* {mission.trip.estimated_arrival}  */}
+                        ETA: {moment(mission.trip.estimated_arrival).format('h:mm A')}
                     </Eta>
                 </Column>
                 <Column margin="0" width="25%">
